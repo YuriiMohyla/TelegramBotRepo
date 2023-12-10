@@ -1,0 +1,15 @@
+telegram:
+  bot:
+    name: InventoryManagement777Bot
+    token: ${TELEGRAM_TOKEN}
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+server:
+  port: 8082
