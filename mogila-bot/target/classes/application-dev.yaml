@@ -1,0 +1,9 @@
+telegram:
+  bot:
+    token: 6865322504:AAEn1eIIvRwjc8HxWB2N-4bK-p08mLTVXMk
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
